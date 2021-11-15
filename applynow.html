@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smart Tuition</title>
+	<!-- Required meta tags -->
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+		<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+	<!--font CSS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- style CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Add icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+	<div class="navigation">
+	<div class="header">
+		<div class="logo">
+	    	<a href="index.html">LOGO</a>
+	 	</div>
+	 	<nav>
+			<ul class="navbar">
+				<li id="link0"><a class="link applylink" href="index.html">HOME</a></li>
+				<li id="link1"><a class="link opennav" id="aboutusid" href="about.html" onmouseenter="document.getElementById('aboutusnav').style.display = 'block'; document.getElementById('aboutusid').style.color = 'white' ;" onmouseleave="document.getElementById('aboutusnav').style.display = 'none'; document.getElementById('aboutusid').style.color = 'black' ;">ABOUT US <span class="downarrow">&#9662</span></a></li>
+
+      			<li id="link2"><a class="link opennav" id="programsid" href="typesofprograms.html" onmouseenter="document.getElementById('programsnav').style.display = 'block'; document.getElementById('programsid').style.color = 'white' ;" onmouseleave="document.getElementById('programsnav').style.display = 'none'; document.getElementById('programsid').style.color = 'black' ;">PROGRAMS <span class="downarrow">&#9662</span></a></li>
+
+      			<li id="link3"><a class="link opennav" id="academiclevelid" onmouseenter="document.getElementById('academiclevelnav').style.display = 'block'; document.getElementById('academiclevelid').style.color = 'white' ;" onmouseleave="document.getElementById('academiclevelnav').style.display = 'none'; document.getElementById('academiclevelid').style.color = 'black' ;">ACADEMIC LEVELS <span class="downarrow">&#9662</span></a></li>
+      			&nbsp &nbsp
+      			<li id="link4"><a class="link applylink" href="applynow.html">APPLY NOW</a></li>
+    		</ul>
+   		</nav>
+	</div>
+	<div class="hovnav" id="aboutusnav" onmouseleave="document.getElementById('aboutusnav').style.display = 'none'; document.getElementById('aboutusid').style.color = 'black' ;" style="margin-right: 350px;" onmouseenter="document.getElementById('aboutusnav').style.display = 'block'; document.getElementById('aboutusid').style.color = 'white' ;">
+					<ul class="aboutusnav">
+						<li><a class="hovlink" href="beliefs.html">OUR TEACHING METHODS</a></li>
+						<li><a class="hovlink" href="testimonial.html">OUR TESTIMONIALS</a></li>
+						<li><a class="hovlink" href="contact.html">CONTACT US</a></li>
+					</ul>
+	</div>
+	<div class="hovnav" id="programsnav" onmouseleave="document.getElementById('programsnav').style.display = 'none'; document.getElementById('programsid').style.color = 'black' ;" style="margin-right: 230px;" onmouseenter="document.getElementById('programsnav').style.display = 'block'; document.getElementById('programsid').style.color = 'white' ;">
+					<ul class="programsnav">
+						<li><a class="hovlink" href="fees.html">OUR PROGRAM FEES</a></li>
+						<li><a class="hovlink" href="typesofprograms.html">TYPES OF PROGRAMS</a></li>
+					</ul>
+	</div>
+	<div class="hovnav" id="academiclevelnav" onmouseleave="document.getElementById('academiclevelnav').style.display = 'none'; document.getElementById('academiclevelid').style.color = 'black' ;" style="margin-right: 110px;" onmouseenter="document.getElementById('academiclevelnav').style.display = 'block'; document.getElementById('academiclevelid').style.color = 'white' ;">
+					<ul class="academiclevelnav">
+						<li><a class="hovlink" href="n2learnmore.html">NURSERY 2</a></li>
+						<li><a class="hovlink" href="k1learnmore.html">KINDERGARTEN 1</a></li>
+						<li><a class="hovlink" href="k2learnmore.html">KINDERGARTEN 2</a></li>
+						<li><a class="hovlink" href="p1learnmore.html">PRIMARY 1</a></li>
+						<li><a class="hovlink" href="p2learnmore.html">PRIMARY 2</a></li>
+						<li><a class="hovlink" href="p3learnmore.html">PRIMARY 3</a></li>
+					</ul>
+	</div>
+	</div>
+	<div class="typesofprogramscontainer">
+		<img src="images/Apply Now/smart-tuition-register-now.png" alt="Smart Tuition Fees Header Image" class="mainimageright">
+		<div class="typesofprogramstext">
+			<div class="typesofprogramsmaintext">
+				Apply Now for 30% Off!
+			</div>
+			<div class="typesofprogramsmainsubtext">
+				Register with us to get access to quality education at the lowest price possible
+			</div>
+			<div class="applynowsmall">
+				First 1000 applicants would receive an additional voucher worth $S100.
+			</div>
+		</div>
+	</div>
+	<div class="registerwithus">
+		<div class="enquireheading"><br/>Register with Us Now</div>
+		<br/><br/>
+		<form id="form" name="form" method="post" action="#" class="applynowform">
+			<div class='applyformheading'>SALUTATION</div>
+			<select id="salutation" name="salutation" class="applyinput">
+				<option value="" disabled selected style="color:gray">-PLEASE SELECT-</option>
+				<option value="ms">Ms</option>
+				<option value="mrs">Mrs</option>
+				<option value="mr">Mr</option>
+				<option value="miss">Miss</option>
+				<option value="dr">Dr</option>
+			</select>
+			<br/><br/>
+			<div class="apply2col1row">
+				<div class="apply2colleft">
+					<div class="applyformheading">PARENT'S FIRST NAME</div>
+					<input class="applymini" type="text" name="name" value="" placeholder="" required>
+				</div>
+				<div class="apply2colright">
+					<div class="applyformheading">PARENT'S LAST NAME</div>
+					<input class="applymini" type="text" name="name" value="" placeholder="" required>
+				</div>
+			</div>
+			<br/><br/><br/><br/><br/>
+			<div class="apply2col1row">
+				<div class="apply2colleft">
+					<div class="applyformheading">EMAIL</div>
+					<input class="applymini" type="email" name="email" value="" placeholder="EMAIL ADDRESS" required>
+				</div>
+				<div class="apply2colright">
+					<div class="applyformheading">PHONE NUMBER</div>
+					<input class="applymini" type="tel" name="number" value="" placeholder="8-DIGIT PHONE NUMBER" required>
+				</div>
+			</div>
+			<br/><br/><br/><br/><br/>
+			<div class="apply2col1row">
+				<div class="apply2colleft">
+					<div class="applyformheading">CHILD'S FIRST NAME</div>
+					<input class="applymini" type="text" name="name" value="" placeholder="" required>
+				</div>
+				<div class="apply2colright">
+					<div class="applyformheading">CHILD'S LAST NAME</div>
+					<input class="applymini" type="text" name="name" value="" placeholder="" required>
+				</div>
+			</div>
+			<br/><br/><br/><br/><br/>
+			<div class="applyformheading">CHILD'S EDUCATION LEVEL</div>
+			<select id="salutation" name="salutation" class="applyinput" required>
+				<option value="" disabled selected>-PLEASE SELECT-</option>
+				<option value="ms">N2</option>
+				<option value="mrs">K1</option>
+				<option value="mr">K2</option>
+				<option value="miss">P1</option>
+				<option value="dr">P2</option>
+				<option value="dr">P3</option>
+			</select>
+			<br/><br/>
+			<div class="applyformheading">PROGRAM TO BE ENROLLED IN</div>
+			<select id="salutation" name="salutation" class="applyinput">
+				<option value="" disabled selected>-PLEASE SELECT-</option>
+				<option value="ms">N2</option>
+				<option value="mrs">K1</option>
+				<option value="mr">K2</option>
+				<option value="miss">P1</option>
+				<option value="dr">P2</option>
+				<option value="dr">P3</option>
+			</select>
+			<br/><br/>
+			<div class="applyformheading">PREFERRED LOCATION</div>
+			<select id="salutation" name="salutation" class="applyinput">
+				<option value="" disabled selected>-PLEASE SELECT-</option>
+				<option value="east">East</option>
+				<option value="west">West</option>
+				<option value="north">North</option>
+				<option value="south">South</option>
+				<option value="central">Central</option>
+			</select>
+			<br/><br/>
+			<input class="enquiresubmit" type="submit" name="submit" value="Submit">
+		</form>
+		<br/><br/>
+	</div>
+
+	<script>
+		$(document).ready(function() {
+   			$('#salutation').css('color','gray');
+  			$('#salutation').change(function() {
+      			var current = $('#salutation').val();
+      			if (current != 'null') {
+          			$('#salutation').css('color','black');
+      			} else {
+          			$('#salutation').css('color','gray');
+      			}
+   			}); 
+		});
+	</script>
+
+</body>
+<footer style="background-color: #77A1AF; color: white; display: inline-block; width: 100%;">
+	<div class="socmedbar">
+		<img src="images/About Us/instagram.png" class="socmed">
+		<img src="images/About Us/facebook.png" class="socmed">
+	</div>
+	<div>
+	<ul class="footerlinks">
+			<li id="link1"><a class="footlink" id="active" href="aboutus.html">About Us</a></li>
+			|
+      		<li id="link2"><a class="footlink" href="program.html">Programs</a></li>
+      		|
+      		<li id="link3"><a class="footlink" href="apply.html">Apply Now</a></li>
+      		|
+      		<li id="link4"><a class="footlink" href="privacypolicy.html">Privacy Policy</a></li>
+      		|
+      		<li id="link5"><a class="footlink" href="termsconditions.html">Terms & Conditions</a></li>
+    </ul>
+	</div>
+	<div class="footercopy">&copy 2021 Smart Tuition Pte Ltd</div>
+</footer>
+</html>
